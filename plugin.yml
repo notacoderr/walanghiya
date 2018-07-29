@@ -1,0 +1,27 @@
+name: SkyWars
+api: [3.0.6, 3.0.7, 3.0.8, 3.1.0, 4.0.0]
+version: 1.1.2
+main: skywars\SkyWars
+author: CODEEH
+description: SkyWars minigame plugin
+
+permissions:
+  sw.cmd:
+    description: Permission to all SkyWars commands
+    default: op
+    children:
+      sw.cmd.help:
+        description: Permission for /sw help
+        default: op
+      sw.cmd.create:
+        description: Permission for /sw create
+        default: op
+      sw.cmd.remove:
+        description: Permission for /sw remove
+        default: op
+      sw.cmd.set:
+        description: Permission for /sw set
+        default: op
+      sw.cmd.arenas:
+        description: Permission for /sw arenas
+        default: op
